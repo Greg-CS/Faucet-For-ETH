@@ -1,10 +1,10 @@
-
-import contract from "@truffle/contract"
+ import contract from "@truffle/contract"
+// var contract = require("@truffle/contract");
 
 export const loadContract = async (name, provider) => {
   const res = await fetch(`/contracts/${name}.json`)
   const Artifact = await res.json()
-
+  
   const _contract = contract(Artifact)
   _contract.setProvider(provider)
 
