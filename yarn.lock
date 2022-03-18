@@ -2083,19 +2083,19 @@
     "faker" "^5.3.1"
     "fast-check" "^2.12.1"
 
-"@truffle/blockchain-utils@^0.1.0":
-  "integrity" "sha512-9mzYXPQkjOc23rHQM1i630i3ackITWP1cxf3PvBObaAnGqwPCQuqtmZtNDPdvN+YpOLpBGpZIdYolI91xLdJNQ=="
-  "resolved" "https://registry.npmjs.org/@truffle/blockchain-utils/-/blockchain-utils-0.1.0.tgz"
-  "version" "0.1.0"
+"@truffle/blockchain-utils@^0.1.1":
+  "integrity" "sha512-o7nBlaMuasuADCCL2WzhvOXA5GT5ewd/F35cY6ZU69U5OUASR3ZP4CZetVCc5MZePPa/3CL9pzJ4Rhtg1ChwVA=="
+  "resolved" "https://registry.npmjs.org/@truffle/blockchain-utils/-/blockchain-utils-0.1.1.tgz"
+  "version" "0.1.1"
 
-"@truffle/codec@^0.12.2":
-  "integrity" "sha512-UiWPPWtW8nkLbdzut0KkFXg5Xt70XXtgsdpwSG7lYOXJTPeLcCpGnVvjrDglsvwk3gz3iiOVrdtq6JwYo4om6Q=="
-  "resolved" "https://registry.npmjs.org/@truffle/codec/-/codec-0.12.2.tgz"
-  "version" "0.12.2"
+"@truffle/codec@^0.12.3":
+  "integrity" "sha512-szDlA5KmTwFDL6yjB0i9bwz48nxObbxAwL6MERJRLrs7yQu/3jTtTW3cfw9owtsfqu7DzX4TXAPLp0eYb4PPUQ=="
+  "resolved" "https://registry.npmjs.org/@truffle/codec/-/codec-0.12.3.tgz"
+  "version" "0.12.3"
   dependencies:
     "@truffle/abi-utils" "^0.2.10"
     "@truffle/compile-common" "^0.7.29"
-    "big.js" "^5.2.2"
+    "big.js" "^6.0.3"
     "bn.js" "^5.1.3"
     "cbor" "^5.1.0"
     "debug" "^4.3.1"
@@ -2120,15 +2120,15 @@
     "ajv" "^6.10.0"
     "debug" "^4.3.1"
 
-"@truffle/contract@^4.5.0":
-  "integrity" "sha512-i2sjrxGGgahGwVTfHG380Q8XveQoP+NbTlcKBYmEaeUjLloHIECt4zxhVp79e8svmtiYXScRytHbYlQdCqYRCQ=="
-  "resolved" "https://registry.npmjs.org/@truffle/contract/-/contract-4.5.0.tgz"
-  "version" "4.5.0"
+"@truffle/contract@^4.5.1":
+  "integrity" "sha512-r6MM42Bq7HdN2jd17ZQicCBGAhzOSyQeR6hras7N30nz2WTAi9GUj3vhprZ1lRiVMufOfc1H935jxsJz1hQipQ=="
+  "resolved" "https://registry.npmjs.org/@truffle/contract/-/contract-4.5.1.tgz"
+  "version" "4.5.1"
   dependencies:
     "@ensdomains/ensjs" "^2.0.1"
-    "@truffle/blockchain-utils" "^0.1.0"
+    "@truffle/blockchain-utils" "^0.1.1"
     "@truffle/contract-schema" "^3.4.6"
-    "@truffle/debug-utils" "^6.0.12"
+    "@truffle/debug-utils" "^6.0.13"
     "@truffle/error" "^0.1.0"
     "@truffle/interface-adapter" "^0.5.12"
     "bignumber.js" "^7.2.1"
@@ -2140,17 +2140,17 @@
     "web3-eth-abi" "1.5.3"
     "web3-utils" "1.5.3"
 
-"@truffle/debug-utils@^6.0.12":
-  "integrity" "sha512-us74FNgKApsm34NzekxZWzU9ewagXTv226CJFV2z6F9mBQyClYCH6FdsZDHBpcm1MDEsspntb9w3M3r+8qtEUg=="
-  "resolved" "https://registry.npmjs.org/@truffle/debug-utils/-/debug-utils-6.0.12.tgz"
-  "version" "6.0.12"
+"@truffle/debug-utils@^6.0.13":
+  "integrity" "sha512-8BZ82FqOpnfzs2IvfYOgTzthQ0e8yO1Zm86CO4vPlrbTVI0bSemCFevau0QzR5bPXVg558MHpDOhZHmZN6yU1w=="
+  "resolved" "https://registry.npmjs.org/@truffle/debug-utils/-/debug-utils-6.0.13.tgz"
+  "version" "6.0.13"
   dependencies:
-    "@truffle/codec" "^0.12.2"
+    "@truffle/codec" "^0.12.3"
     "@trufflesuite/chromafi" "^3.0.0"
     "bn.js" "^5.1.3"
     "chalk" "^2.4.2"
     "debug" "^4.3.1"
-    "highlightjs-solidity" "^2.0.4"
+    "highlightjs-solidity" "^2.0.5"
 
 "@truffle/error@^0.1.0":
   "integrity" "sha512-RbUfp5VreNhsa2Q4YbBjz18rOQI909pG32bghl1hulO7IpvcqTS+C3Ge5cNbiWQ1WGzy1wIeKLW0tmQtHFB7qg=="
@@ -3395,6 +3395,11 @@
   "integrity" "sha512-vyL2OymJxmarO8gxMr0mhChsO9QGwhynfuu4+MHTAW6czfq9humCB7rKpUjDd9YUiDPU4mzpyupFSvOClAwbmQ=="
   "resolved" "https://registry.npmjs.org/big.js/-/big.js-5.2.2.tgz"
   "version" "5.2.2"
+
+"big.js@^6.0.3":
+  "integrity" "sha512-1vObw81a8ylZO5ePrtMay0n018TcftpTA5HFKDaSuiUDBo8biRBtjIobw60OpwuvrGk+FsxKamqN4cnmj/eXdg=="
+  "resolved" "https://registry.npmjs.org/big.js/-/big.js-6.1.1.tgz"
+  "version" "6.1.1"
 
 "bignumber.js@^7.2.1":
   "integrity" "sha512-S4XzBk5sMB+Rcb/LNcpzXr57VRTxgAvaAEDAl1AwRx27j00hT84O6OkteE7u8UB3NuaaygCRrEpqox4uDOrbdQ=="
@@ -6047,11 +6052,11 @@
   "version" "5.5.3"
 
 "fast-check@^2.12.1":
-  "integrity" "sha512-aV1kOi6zUCytkICuhu9s8MBtJjlAos6MIU5NYCcgt5u2UVdgaAsqTI+u0n6Cea1hKFXdfSmfz6wfxce6Ozcj2w=="
-  "resolved" "https://registry.npmjs.org/fast-check/-/fast-check-2.23.0.tgz"
-  "version" "2.23.0"
+  "integrity" "sha512-ECYuSlp6NLpvOj8eScKsqoz1ihtCpSDuEC2ofdGvgsEu1obHYEGqreJ/iPzkJFy73yoU0kCFea7PHUQDNM0VNg=="
+  "resolved" "https://registry.npmjs.org/fast-check/-/fast-check-2.23.2.tgz"
+  "version" "2.23.2"
   dependencies:
-    "pure-rand" "^5.0.0"
+    "pure-rand" "^5.0.1"
 
 "fast-deep-equal@^3.1.1", "fast-deep-equal@^3.1.3":
   "integrity" "sha512-f3qQ9oQy9j2AhBe/H9VC91wLmKBCCU/gDOnKNAYG5hswO7BLKj09Hc5HYNz9cGI++xlpDCIgDaitVs03ATR84Q=="
@@ -6785,7 +6790,7 @@
   "resolved" "https://registry.npmjs.org/highlight.js/-/highlight.js-10.7.3.tgz"
   "version" "10.7.3"
 
-"highlightjs-solidity@^2.0.4":
+"highlightjs-solidity@^2.0.5":
   "integrity" "sha512-ReXxQSGQkODMUgHcWzVSnfDCDrL2HshOYgw3OlIYmfHeRzUPkfJTUIp95pK4CmbiNG2eMTOmNLpfCz9Zq7Cwmg=="
   "resolved" "https://registry.npmjs.org/highlightjs-solidity/-/highlightjs-solidity-2.0.5.tgz"
   "version" "2.0.5"
@@ -10813,10 +10818,10 @@
   "resolved" "https://registry.npmjs.org/punycode/-/punycode-2.1.0.tgz"
   "version" "2.1.0"
 
-"pure-rand@^5.0.0":
-  "integrity" "sha512-lD2/y78q+7HqBx2SaT6OT4UcwtvXNRfEpzYEzl0EQ+9gZq2Qi3fa0HDnYPeqQwhlHJFBUhT7AO3mLU3+8bynHA=="
-  "resolved" "https://registry.npmjs.org/pure-rand/-/pure-rand-5.0.0.tgz"
-  "version" "5.0.0"
+"pure-rand@^5.0.1":
+  "integrity" "sha512-ksWccjmXOHU2gJBnH0cK1lSYdvSZ0zLoCMSz/nTGh6hDvCSgcRxDyIcOBD6KNxFz3xhMPm/T267Tbe2JRymKEQ=="
+  "resolved" "https://registry.npmjs.org/pure-rand/-/pure-rand-5.0.1.tgz"
+  "version" "5.0.1"
 
 "q@^1.1.2":
   "integrity" "sha1-fjL3W0E4EpHQRhHxvxQQmsAGUdc="
